@@ -1,7 +1,7 @@
 # Expanding the file system
-As the JetBot image has limited free space, you may want to expand the file system to fill the entirity of the SD card.
+As the JetBot image has limited free space, you may want to expand the file system to fill the entirety of the SD card.
 
-You can check the current amout of free space with: 
+You can check the current amount of free space with: 
 ```
 $ df -h
 ```

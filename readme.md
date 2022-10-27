@@ -47,5 +47,5 @@ $ git clone https://gitlab.com/eivaun.experis/jetank-path-cleaner.git
 ## Usage
 [Usage](usage.md)
 
-## Contrubutors
+## Contributors
 Eivind Vold Aunebakk
