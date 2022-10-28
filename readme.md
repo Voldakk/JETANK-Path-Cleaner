@@ -2,6 +2,7 @@
 
 This project enables the JETANK to follow a path and clear objects that are in the way.
 The object detection uses DetectNet and a model trained from SSD-Mobilenet with transfer learning. The lane detection is based on applying edge detection in the regions identified as paths by DetectNet.
+
 ![screenshot](images/banner.png)
 
 ## Prerequisites
