@@ -1,8 +1,8 @@
 # JETANK Path Cleaner
 
-This project makes the JETANK follow a path and clear objects that are in the way.
-The object detection uses DetectNet and a model trained from SSD-Mobilenet with transfer learning. See [Usage](usage.md) for more details.
-![screenshot](images/detection.png)
+This project enables the JETANK to follow a path and clear objects that are in the way.
+The object detection uses DetectNet and a model trained from SSD-Mobilenet with transfer learning. The lane detection is based on applying edge detection in the regions identified as paths by DetectNet.
+![screenshot](images/banner.png)
 
 ## Prerequisites
 - [JETANK AI Kit](https://www.waveshare.com/jetank-ai-kit.htm)
@@ -27,7 +27,7 @@ $ ./config.sh jetbot
 reboot
 ```
 In the jetbot docker container. Accessed via the Jupiter notebook terminal in a browser: \
-Address: `IP:8888` \
+Address: `<JetbotIP>:8888` \
 Password: `jetbot`
 
 ```
@@ -45,7 +45,11 @@ $ git clone https://gitlab.com/eivaun.experis/jetank-path-cleaner.git
 ```
 
 ## Usage
-[Usage](usage.md)
+Run the notebook in the jetbot container. \
+See [Usage](usage.md) for more details.
+
+## Video
+https://youtu.be/nnxIErPTU_k
 
 ## Contributors
 Eivind Vold Aunebakk
