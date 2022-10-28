@@ -18,6 +18,8 @@ Flash the SD card according to the instructions at [JetBot - Software Setup (SD 
 
 You may want to [expand the filesystem to fill the SD card](expand_sd.md).
 
+For training it's recommended to [mount 4GB of swap space](https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-transfer-learning.md#mounting-swap).
+
 ### Setup JETANK
 ```
 $ sudo git clone https://github.com/waveshare/JETANK.git
